@@ -4,9 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "node ./node_modules/next/dist/bin/next build",
+    "start": "node ./node_modules/next/dist/bin/next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": ">=9"
   },
   "dependencies": {
     "@mantine/core": "^8.1.1",
