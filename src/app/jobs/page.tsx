@@ -40,7 +40,7 @@ export default function JobListPage() {
 
   useEffect(() => {
     fetchJobs();
-  }, [filters,fetchJobs]);
+  }, [filters]);
 
   return (
     <div>
