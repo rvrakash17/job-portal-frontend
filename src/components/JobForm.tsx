@@ -71,7 +71,6 @@ const JobForm = forwardRef<JobFormRef, JobFormProps>(({ onSuccess }, ref) => {
     },
   });
 
-  const jobType = watch('jobType');
   const applicationDeadline = watch('applicationDeadline');
 
   useEffect(() => {
