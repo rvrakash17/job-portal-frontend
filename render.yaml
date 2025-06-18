@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: nextjs-app
+    name: job-portal-frontend
     env: node
     plan: free
     buildCommand: npm install && npm run build
